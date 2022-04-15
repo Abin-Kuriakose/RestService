@@ -7,12 +7,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>RestService Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.1.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
-  </parent>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -23,8 +17,8 @@
     <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<version>2.1.1.RELEASE</version>
     </dependency>
-
   </dependencies>
   <build>
     <finalName>RestService</finalName>
